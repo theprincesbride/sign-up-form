@@ -26,45 +26,55 @@
                 <p class="right-top-text">You <em>know</em> you want to!</p>
             </div>
             <div class="right-middle">
-                <p class="right-middle-text">Let's do this!</p>
                 <form action="example.com/path" method="post">
                     <fieldset>
-                        <label for="first-name">
-                            FIRST NAME
-                        </label>
-                        <input type="text" id="first-name" name="first-name">
+                        <legend>Let's do this!</legend>
+                        <div class="form-section">
 
-                        <label for="last-name">
-                            LAST NAME
-                        </label>
-                        <input type="text" id="last-name" name="last-name">
-
-                        <label for="email">
-                            EMAIL
-                        </label>
-                        <input type="email" id="email" name="email">
-
-                        <label for="phone">
-                            PHONE NUMBER
-                        </label>
-                        <input type="number" id="phone" name="phone">
-
-                        <label for="password">
-                            PASSWORD
-                        </label>
-                        <input type="password" id="password" name="password">
-
-                        <label for="password-confirm">
-                            CONFIRM PASSWORD
-                        </label>
-                        <input type="password" id="password-confirm" name="password">
+                            <div class="form-entry">
+                                <label for="first-name">
+                                    FIRST NAME
+                                </label>
+                                <input type="text" id="first-name" name="first-name" placeholder="John" required autofocus>
+                            </div>
+                            <div class="form-entry">
+                                <label for="last-name">
+                                    LAST NAME
+                                </label>
+                                <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+                            </div>
+                            <div class="form-entry">
+                                <label for="email">
+                                    EMAIL
+                                </label>
+                                <input type="email" id="email" name="email" placeholder="johndoe@example.com" required>
+                            </div>
+                            <div class="form-entry">
+                                <label for="phone">
+                                    PHONE NUMBER
+                                </label>
+                                <input type="tel" id="phone" name="phone" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            </div>
+                            <div class="form-entry">
+                                <label for="password">
+                                    PASSWORD
+                                </label>
+                                <input type="password" id="password" name="password" placeholder="Password" required>
+                            </div>
+                            <div class="form-entry">
+                                <label for="password-confirm">
+                                    CONFIRM PASSWORD
+                                </label>
+                                <input type="password" id="password-confirm" name="password" placeholder="Confirm Password" required>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
 
             </div>
             <div class="right-bottom">
                 <button type="submit">Create Account</button>
-                <p class="right-bottom-text">Already have an account? Log in</p>
+                <p class="right-bottom-text">Already have an account? <a class="right-bottom-link" href="">Log in</a></p>
             </div>
         </div>
     </div>

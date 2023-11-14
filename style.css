@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: gainsboro;
-    min-height: 650px;
+    min-height: 800px;
 
 }
 
@@ -30,7 +30,7 @@ body {
     background-image: url(images/studio-dekorasyon-vngzm4P2BTs-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 650px;
+    min-height: 800px;
     min-width: 400px;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@ body {
 .logo-section {
     max-height: 125px;
     margin-top:  150px;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: #000000bf;
     position: relative;
     display: flex;
     justify-content: center;
@@ -66,7 +66,114 @@ body {
    font-size: 0.8rem;
 }
 
-/* .right-section {
+.right-section {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    min-height: 800px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.right-top {
+    padding-left: 40px;
+    padding-right: 200px;
+
+}
+
+.right-top-text {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
 
 
-} */
+fieldset {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+legend {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+
+.right-middle {
+    background-color: white;
+    min-width: 650px;
+    padding: 20px 80px 20px 40px;
+    box-shadow: 0px 1px 5px #00000052;
+    padding-right: 240px;
+}
+
+.form-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 75px;
+    row-gap: 20px;
+}
+
+.form-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+input {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    outline: none;
+    transition: 0.5s;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0px 1px 5px #00000052;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.right-bottom {
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+button[type=submit] {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: darkcyan;
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #00000052;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button[type=submit]:active {
+    background-color: #012c2c;
+}
+
+.right-bottom-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.right-bottom-link {
+    font-size: 1rem;
+    font-weight: 700;
+    color: darkcyan;
+    text-decoration: none;
+}
