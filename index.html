@@ -3,10 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Sign-up Form</title>
 </head>
 <body>
+    <div class="whole">
+        <div class="left-section">
+            <div class="logo-section">
+                <img class="logo" src="images/odin-lined.png" alt="The Odin Project logo">
+                <h1 class="logo-text">Odin</h1>
+            </div>
+            <p class="footer-left">Photo by <a class="footer-left" href="https://unsplash.com/@t_t">Studio Dekorasyon</a> on <a class="footer-left" href="https://unsplash.com">Unsplash</a></p>
+        </div>
 
+        <div class="right-section">
+            <div class="right-top">
+                <p class="right-top-text">This is not a real online service!
+                    You know you need something like this in your life to help
+                    you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p class="right-top-text">You <em>know</em> you want to!</p>
+            </div>
+            <div class="right-middle">
+                <p class="right-middle-text">Let's do this!</p>
+                <form action="example.com/path" method="post">
+                    <fieldset>
+                        <label for="first-name">
+                            FIRST NAME
+                        </label>
+                        <input type="text" id="first-name" name="first-name">
+
+                        <label for="last-name">
+                            LAST NAME
+                        </label>
+                        <input type="text" id="last-name" name="last-name">
+
+                        <label for="email">
+                            EMAIL
+                        </label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="phone">
+                            PHONE NUMBER
+                        </label>
+                        <input type="number" id="phone" name="phone">
+
+                        <label for="password">
+                            PASSWORD
+                        </label>
+                        <input type="password" id="password" name="password">
+
+                        <label for="password-confirm">
+                            CONFIRM PASSWORD
+                        </label>
+                        <input type="password" id="password-confirm" name="password">
+                    </fieldset>
+                </form>
+
+            </div>
+            <div class="right-bottom">
+                <button type="submit">Create Account</button>
+                <p class="right-bottom-text">Already have an account? Log in</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

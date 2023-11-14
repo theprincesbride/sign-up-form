@@ -1,7 +1,72 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url('Norse-Bold.otf');
+}
+
+
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: #06061b;
+    font-size: 1rem;
 }
+
+
+.whole {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    min-height: 650px;
+
+}
+
+.left-section {
+    background-image: url(images/studio-dekorasyon-vngzm4P2BTs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-section {
+    max-height: 125px;
+    margin-top:  150px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    max-height: 100px;
+    width: auto;
+}
+
+.logo-text {
+    font-family: "Norse Bold", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.footer-left {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+   align-self: center;
+   font-size: 0.8rem;
+}
+
+/* .right-section {
+
+
+} */
